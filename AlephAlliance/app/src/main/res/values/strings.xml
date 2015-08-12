@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">AlephAlliance Beta</string>
     <string name="search_title">Search</string>
+    <string name="model_button">Model</string>
+    <string name="memory_button">Memory</string>
+    <string name="color_button">Color</string>
+    <string name="condition_button">Condition</string>
+    <string name="chk_iphone4">Iphone 4</string>
+    <string name="chk_iphone4s">Iphone 4s</string>
+    <string name="chk_iphone5">Iphone 5</string>
+    <string name="chk_iphone5s">Iphone 5s</string>
+    <string name="chk_iphone6">Iphone 6</string>
+    <string name="btn_display">Show</string>
+    <string name="chk_16Gb">16Gb</string>
+    <string name="chk_32Gb">32Gb</string>
+    <string name="chk_64Gb">64Gb</string>
+    <string name="chk_white">White</string>
+    <string name="chk_black">Black</string>
 </resources>

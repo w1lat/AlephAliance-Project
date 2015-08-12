@@ -11,6 +11,21 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".MenuActivity">
+            android:label="Models">
+        </activity>
+
+        <activity android:name=".ModelsListActivity">
+            android:label="Models">
+        </activity>
+
+        <activity android:name=".MemoryListActivity">
+            //android:label="@string/about_title">
+        </activity>
+
+        <activity android:name=".ColorListActivity">
+            //android:label="@string/about_title">
+        </activity>
         
     </application>
 

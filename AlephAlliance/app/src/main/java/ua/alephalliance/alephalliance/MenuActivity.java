@@ -2,6 +2,7 @@ package ua.alephalliance.alephalliance;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
@@ -9,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class MainActivity extends Activity implements View.OnClickListener{
+public class MenuActivity extends Activity implements View.OnClickListener{
 
     private Toolbar toolbar;
     private Button modelsBtn;
@@ -18,12 +19,11 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.menu_activity);
 
         initToolbar();
+
 
         modelsBtn = (Button)findViewById(R.id.model_button);
         modelsBtn.setOnClickListener(this);

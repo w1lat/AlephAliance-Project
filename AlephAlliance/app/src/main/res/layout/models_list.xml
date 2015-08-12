@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mainBackground"
+    android:weightSum="1">
+
+    <CheckBox
+        android:id="@+id/chkIphone4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_iphone4"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/chkIphone4s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_iphone4s"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/chkIphone5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_iphone5"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/chkIphone5s"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_iphone5s"
+        android:textSize="30sp"/>
+
+    <CheckBox
+        android:id="@+id/chkIphone6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chk_iphone6"
+        android:textSize="30sp"/>
+
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_display"
+        android:layout_gravity="end" />
+
+</LinearLayout>
